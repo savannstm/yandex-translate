@@ -5,8 +5,8 @@ Simple Yandex Translate API client vibe-coded by Claude.
 ## Installation
 
 ```bash
-cargo add yandex-translate # Blocking
-cargo add yandex-translate --no-default-features -F "async" # Asynchronous
+cargo add yandex-translate-v2 # Blocking
+cargo add yandex-translate-v2 --no-default-features -F "async" # Asynchronous
 ```
 
 ## Example
