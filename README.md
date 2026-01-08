@@ -14,7 +14,7 @@ cargo add yandex-translate-v2 --no-default-features -F "async" # Asynchronous
 ### Blocking
 
 ```rust no_run
-use yandex_translate::{
+use yandex_translate_v2::{
     AuthMethod,
     TranslateRequest,
     YandexTranslateClient,
@@ -49,7 +49,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ### Asynchronous
 
 ```rust no_run
-use yandex_translate::{
+use yandex_translate_v2::{
     TranslateRequest,
     YandexTranslateClient,
 };
