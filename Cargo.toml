@@ -1,0 +1,26 @@
+[package]
+name = "yandex-translate"
+version = "0.1.0"
+authors = ["savannstm <savannstm@gmail.com>"]
+edition = "2021"
+description = "Text tokenizer for linguistic purposes, such as text matching. Supports more than 40 languages, including English, French, Russian, Japanese, Thai etc."
+documentation = "https://docs.rs/lyandex-translate"
+homepage = "https://crates.io/crates/yandex-translate"
+repository = "https://github.com/savannstm/yandex-translate"
+readme = "README.md"
+rust-version = "1.83.0"
+license-file = "LICENSE.md"
+keywords = ["tokenizer", "text", "linguistic", "language", "segmenter"]
+
+[dependencies]
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
+reqwest = { version = "0.13.1", features = ["json"] }
+thiserror = "2.0.17"
+
+tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread"], optional = true }
+
+[features]
+default = ["blocking"]
+blocking = ["reqwest/blocking"]
+async = ["dep:tokio"]
