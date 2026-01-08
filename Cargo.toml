@@ -1,6 +1,6 @@
 [package]
 name = "yandex-translate-v2"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["savannstm <savannstm@gmail.com>"]
 edition = "2021"
 description = "Yandex Translate API v2 client (and not only v2)."
@@ -10,7 +10,7 @@ repository = "https://github.com/savannstm/yandex-translate-v2"
 readme = "README.md"
 rust-version = "1.83.0"
 license-file = "LICENSE.md"
-keywords = ["tokenizer", "text", "linguistic", "language", "segmenter"]
+keywords = ["translate", "api", "client", "yandex", "yandex-translate"]
 
 [dependencies]
 serde = { version = "1.0.228", features = ["derive"] }
