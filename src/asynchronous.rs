@@ -89,7 +89,7 @@ impl YandexTranslateClient {
     /// # Examples
     ///
     /// ```no_run
-    /// use yandex_translate::YandexTranslateClient;
+    /// use yandex_translate_v2::YandexTranslateClient;
     ///
     /// let client = YandexTranslateClient::with_api_key("key").unwrap()
     ///     .with_base_url("https://example.com");
@@ -124,7 +124,7 @@ impl YandexTranslateClient {
     /// # Examples
     ///
     /// ```no_run
-    /// use yandex_translate::{YandexTranslateClient, Result, TranslateRequest};
+    /// use yandex_translate_v2::{YandexTranslateClient, Result, TranslateRequest};
     ///
     /// async fn example() -> Result<()> {
     ///     let request = TranslateRequest {

@@ -1,12 +1,12 @@
 [package]
-name = "yandex-translate"
+name = "yandex-translate-v2"
 version = "0.1.0"
 authors = ["savannstm <savannstm@gmail.com>"]
 edition = "2021"
-description = "Text tokenizer for linguistic purposes, such as text matching. Supports more than 40 languages, including English, French, Russian, Japanese, Thai etc."
-documentation = "https://docs.rs/yandex-translate"
-homepage = "https://crates.io/crates/yandex-translate"
-repository = "https://github.com/savannstm/yandex-translate"
+description = "Yandex Translate API v2 client (and not only v2)."
+documentation = "https://docs.rs/yandex-translate-v2"
+homepage = "https://crates.io/crates/yandex-translate-v2"
+repository = "https://github.com/savannstm/yandex-translate-v2"
 readme = "README.md"
 rust-version = "1.83.0"
 license-file = "LICENSE.md"
