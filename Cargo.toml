@@ -1,6 +1,6 @@
 [package]
 name = "yandex-translate-v2"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["savannstm <savannstm@gmail.com>"]
 edition = "2021"
 description = "Yandex Translate API v2 client (and not only v2)."
